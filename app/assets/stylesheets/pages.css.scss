@@ -1,0 +1,112 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 970px;
+}
+
+.main {
+    background: #000;    
+    color: #fff;
+    padding: 60px 0 60px 0;
+}
+.main h1 {
+    font-size: 70px;
+    padding: 50px 0 20px 0;    
+}
+.main-logo{
+    
+    height: 30px;
+    
+}
+.main ul{
+    
+float: right;
+    clear: both;
+}
+
+.main li{
+    padding: 0 10px;
+    display: inline;
+    color: #fff;
+}
+
+.main .btn-fancy {
+    margin-top: -8px;
+    padding: 5px 10px 5px 10px;
+    background: #000;
+    border-style: solid;
+    border-radius: 0;
+    border-color: #0393FF;
+    color: #0393FF;
+    
+}
+
+.main .hint-fancy {
+    width: 400px;
+    background: #000;
+    color:#333;
+    margin: 50px 10px 0 0;
+    font-size: 18px;
+    border-color:#fff;
+    border-style: none none solid none;
+    border-bottom-width: thin;
+    
+}
+
+.content {
+    text-align: center;    
+}
+
+.supporting {
+  background-image: url(http://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+  text-align: center;  
+  padding: 50px 0 50px 0;
+}
+
+h2{
+    font-size: 30px;
+    color:#0993ff;    
+}
+
+.supporting p {
+    color: #fff;
+    padding: 0 0 30px 0;
+}
+.supporting img {
+    /*marginpadding-right:10px;*/
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.feature {
+    background: url(http://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0 150px 0;
+    color: #fff;
+}
+
+
+.footer {
+    background: #000;
+    padding: 60px 0 60px 0;
+    
+}
+.footer h3{
+    color: #fff;  
+}
+
+.footer li{
+    
+    list-style-type: none;
+    color: #0993ff;
+}
